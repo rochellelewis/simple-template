@@ -27,8 +27,11 @@ $PREFIX = str_repeat("../", $DEPTH_DIFFERENCE);
 		<!-- Optional Bootstrap theme -->
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
 
+		<!-- Font Awesome -->
+		<link type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.2/css/font-awesome.min.css" rel="stylesheet" />
+
 		<!-- My Custom CSS -->
-		<link rel="stylesheet" href="css/style.css" type="text/css"/>
+		<link rel="stylesheet" href="<?php echo $PREFIX;?>css/style.css" type="text/css"/>
 
 		<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
 		<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->

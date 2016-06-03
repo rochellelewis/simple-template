@@ -1,7 +1,10 @@
-<?php
-/**
- * Created by PhpStorm.
- * User: ro
- * Date: 6/2/16
- * Time: 10:10 PM
- */
+<footer>
+	<div class="container">
+		<div class="col-sm-4">
+			foot logo
+		</div>
+		<div class="col-sm-8">
+			links
+		</div>
+	</div>
+</footer>

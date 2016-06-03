@@ -11,81 +11,42 @@ require_once("php/partials/head-utils.php");
 <body class="sfooter">
 	<div class="sfooter-content">
 
-		<header>
-			<nav class="navbar navbar-default navbar-fixed-top">
-				<div class="container-fluid">
-					<!-- Brand and toggle get grouped for better mobile display -->
-					<div class="navbar-header">
-						<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-							<span class="sr-only">Toggle navigation</span>
-							<span class="icon-bar"></span>
-							<span class="icon-bar"></span>
-							<span class="icon-bar"></span>
-						</button>
-						<a class="navbar-brand" href="#">Simple Template Example</a>
-					</div>
+		<!-- insert header and navbar -->
+		<?php require_once("php/partials/header.php");?>
 
-					<!-- Collect the nav links, forms, and other content for toggling -->
-					<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-						<ul class="nav navbar-nav">
-							<li class="active"><a href="#">Link <span class="sr-only">(current)</span></a></li>
-							<li><a href="#">Link</a></li>
-							<li class="dropdown">
-								<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
-								<ul class="dropdown-menu">
-									<li><a href="#">Action</a></li>
-									<li><a href="#">Another action</a></li>
-									<li><a href="#">Something else here</a></li>
-									<li role="separator" class="divider"></li>
-									<li><a href="#">Separated link</a></li>
-									<li role="separator" class="divider"></li>
-									<li><a href="#">One more separated link</a></li>
-								</ul>
-							</li>
-						</ul>
-						<form class="navbar-form navbar-left" role="search">
-							<div class="form-group">
-								<input type="text" class="form-control" placeholder="Search">
-							</div>
-							<button type="submit" class="btn btn-default">Submit</button>
-						</form>
-						<ul class="nav navbar-nav navbar-right">
-							<li><a href="#">Link</a></li>
-							<li class="dropdown">
-								<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
-								<ul class="dropdown-menu">
-									<li><a href="#">Action</a></li>
-									<li><a href="#">Another action</a></li>
-									<li><a href="#">Something else here</a></li>
-									<li role="separator" class="divider"></li>
-									<li><a href="#">Separated link</a></li>
-								</ul>
-							</li>
-						</ul>
-					</div><!-- /.navbar-collapse -->
-				</div><!-- /.container-fluid -->
-			</nav>
-		</header>
-
-		<section class="welcome">
-			welcome section here
+		<section class="welcome p-t-50">
+			<div class="container">
+				<div class="jumbotron text-center">
+					<h1>&lt;C0ded by Dog&gt;</h1>
+					<p class="lead">A simple static website templated using PHP.</p>
+				</div>
+			</div>
 		</section><!--/.welcome-->
 
 		<section class="home-features">
-			home features here
+			<div class="container">
+				<div class="row row-flex">
+					<div class="col-sm-6 col-md-4">
+						<div class="featurette vertical-center">
+							<p class="h1">Built with PWP in mind...</p>
+						</div>
+					</div>
+					<div class="col-sm-6 col-md-8">
+						<div>
+							<p class="lead">This example of a simple, static website was created with PWP in mind. It uses the PHP require_once() statement to inject content from separate files into the pages. This example also dynamically resolves internal dependency paths using PHP too. Sweet!</p>
+							<p class="lead">There are also some goodies in the CSS as well, like equal height columns using flexbox rules, two layouts, a contact form, and more.</p>
+							<!--<p class="lead">Check out the source code on <a href="https://github.com/rlewis2892/simple-template" target="_blank">GitHub</a></p>
+							<p class="lead">RTFM here: <a href="https://bootcamp-coders.cnm.edu/class-materials/front-end-architecture/" target="_blank">Intro to Templating</a></p>-->
+						</div>
+					</div>
+				</div>
+			</div>
 		</section><!--/.home-features-->
 
 	</div><!--/.sfooter-content-->
 
-	<footer>
-		<div class="container">
-			<div class="col-sm-4">
-				foot logo
-			</div>
-			<div class="col-sm-8">
-				foot nav
-			</div>
-		</div>
-	</footer>
+	<!-- insert footer -->
+	<?php require_once("php/partials/footer.php");?>
+
 </body>
 </html>
