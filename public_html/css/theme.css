@@ -225,9 +225,12 @@ nav.navbar {
 *****************************************/
 
 /* add some margin underneath the reCAPTCHA and the form #output-area */
-.g-recaptcha,
-#output-area {
+.g-recaptcha {
 	margin-bottom: 1.5rem;
+}
+
+#output-area {
+	margin-top: 1.5rem;
 }
 
 /****************************************

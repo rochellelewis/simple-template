@@ -80,8 +80,8 @@ try {
 	}
 
 	// report a successful send
-	echo "&lt;div class=\"alert alert-success\" role=\"alert\"&gt;Email successfully sent.&lt;/div&gt;";
+	echo "<div class=\"alert alert-success\" role=\"alert\">Email successfully sent! :D</div>";
 
 } catch(Exception $exception) {
-	echo "&lt;div class=\"alert alert-danger\" role=\"alert\"&gt;&lt;strong&gt;Oh snap!&lt;/strong&gt; Unable to send email: " . $exception->getMessage() . "&lt;/div&gt;";
+	echo "<div class=\"alert alert-danger\" role=\"alert\"><strong>Oh snap!</strong>Unable to send email: " . $exception->getMessage() . "</div>";
 }
