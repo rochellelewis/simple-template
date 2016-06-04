@@ -1,0 +1,214 @@
+/****************************************
+* Simple Template Example Theme
+* @author: rlewis37@cnm.edu
+*****************************************/
+
+html,
+body {
+	font-family: 'Roboto', Helvatica, Arial, sans-serif;
+}
+
+p {
+	margin-bottom: 20px;
+}
+
+a,
+a:visited,
+a:hover,
+a:active {
+	-webkit-transition: all 250ms ease;
+	-moz-transition: all 250ms ease;
+	-ms-transition: all 250ms ease;
+	-o-transition: all 250ms ease;
+	transition: all 250ms ease;
+}
+
+h1, .h1,
+h2, .h2,
+h3, .h3,
+h4, .h4 {
+	font-family: 'Playfair Display', Times, serif;
+}
+
+.lead {
+	font-weight: 300;
+}
+
+/****************************************
+* Main Navbar
+*****************************************/
+nav.navbar {
+	-webkit-transition: all 500ms ease;
+	-moz-transition: all 500ms ease;
+	-ms-transition: all 500ms ease;
+	-o-transition: all 500ms ease;
+	transition: all 500ms ease;
+}
+
+.navbar-brand {
+	font-family: 'Playfair Display', 'Times New Roman', Times, serif;
+}
+
+.navbar-default {
+	background-color: white;
+}
+
+/* embiggen nav on md and lg screens only*/
+@media only screen and (min-width: 992px) {
+	nav.navbar {
+		padding: 40px 0;
+	}
+
+	.navbar-inverse {
+		background-color: transparent;
+		border-bottom: 1px solid rgba(255,255,255,0.2);
+	}
+
+	.navbar-brand {
+		font-size: 3rem;
+	}
+}
+
+/****************************************
+* Home Page - Welcome
+*****************************************/
+.welcome {
+	background: url("../images/dandilion.jpg") no-repeat center center;
+	background-attachment: fixed;
+	background-size: cover;
+	min-height: 400px;
+}
+
+.welcome .jumbotron {
+	background: transparent;
+	border-radius: 0;
+	color: gold;
+	margin: 8rem 0;
+}
+
+.welcome .jumbotron > h1 {
+	font-family: 'Playfair Display', Times, serif;
+}
+
+/*styles for sm, md, lg screens */
+@media only screen and (min-width: 768px) {
+	.welcome .jumbotron {
+		margin: 15rem 0;
+	}
+}
+
+/****************************************
+* Home Page - Featurette
+*****************************************/
+.home-features {
+	padding: 8rem 0;
+}
+
+.featurette {
+	border: 1px solid #222;
+	font-family: 'Playfair Display', 'Times New Roman', Times, serif;
+	font-style: italic;
+	padding: 4rem;
+	margin-bottom: 3rem;
+}
+
+.featurette > p {
+	margin: 0;
+}
+
+/*styles for sm, md, lg screens */
+@media only screen and (min-width: 768px) {
+	.featurette {
+		margin-bottom: 0;
+	}
+}
+
+/****************************************
+* Content Page Layout
+*****************************************/
+.content-wrap {
+	padding-bottom: 4rem;
+}
+
+.content-panel,
+.side-panel {
+	margin-bottom: 3rem !important;
+}
+
+/*styles for sm, md, lg screens */
+@media only screen and (min-width: 768px) {
+	.side-panel {
+		min-height: 500px;
+	}
+
+	.content-panel {
+		padding-left: 10rem;
+	}
+}
+
+/****************************************
+* Content Page - Title Panel
+*****************************************/
+.title-panel {
+	border-left: 5px solid darkturquoise;
+	margin-top: 4rem;
+	margin-bottom: 4rem;
+	padding: 1.5rem 1.5rem 1.5rem 2.5rem;
+}
+
+.title-panel h1 {
+	margin: 0;
+	font-family: 'Playfair Display', 'Times New Roman', Times, serif;
+	font-style: italic;
+}
+
+.title-panel .breadcrumb {
+	margin-bottom: 0;
+	border-radius: 0;
+}
+
+/****************************************
+* Content Page - Side Panel
+*****************************************/
+.side-panel {
+	background: url("../images/dandilion.jpg") no-repeat center center;
+	color: white;
+	font-family: 'Playfair Display', 'Times New Roman', Times, serif;
+	padding: 3rem;
+}
+
+.side-panel .lead {
+	font-size: 2.5em;
+	font-style: italic;
+	color: gold;
+}
+
+/****************************************
+* Footer
+*****************************************/
+footer.footer {
+	background-color: darkturquoise;
+	color: #fff;
+	font-family: 'Playfair Display', "Times New Roman", Times, serif;
+	padding: 5rem 0;
+}
+
+.foot-logo {
+	border-bottom: 1px solid rgba(255,255,255,0.5);
+	font-size: 2em;
+	margin-bottom: 2rem;
+	padding-bottom: 1rem;
+}
+
+.foot-link a,
+.foot-link a:visited {
+	color: #fff;
+	font-size: 1.2em;
+	text-decoration: none;
+}
+
+.foot-link a:hover,
+.foot-link a:active {
+	color: gold;
+	text-decoration: none;
+}

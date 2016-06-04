@@ -1,7 +1,5 @@
-<?php
-/**
- * Created by PhpStorm.
- * User: ro
- * Date: 6/2/16
- * Time: 10:10 PM
- */
+<div>
+	<p class="lead">side panel content here...</p>
+	<hr>
+	<p>widgets, ads, thumbnails, links, etc.</p>
+</div>

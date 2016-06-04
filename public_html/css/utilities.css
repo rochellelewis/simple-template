@@ -1,85 +1,42 @@
 /****************************************
 * Simple Template Example
 * @author: rlewis37@cnm.edu
-*****************************************/
-
-/****************************************
+*
 * Utility Styles
 *****************************************/
-.p-t-50 {
-	padding-top: 50px;
-}
 
 .vertical-center {
 	display: flex;
 	align-items: center;
 }
 
-/****************************************
-* Home Page - Welcome
-*****************************************/
-.welcome {
-	background: url("../images/dog.jpg") no-repeat bottom center;
-	background-size: cover;
-	min-height: 400px;
+.text-serif {
+	font-family: 'Playfair Display', 'Times New Roman', Times, serif;
 }
 
-.welcome .jumbotron {
-	background: transparent;
-	border: 1px solid rgba(255,255,255,0.4);
-	border-radius: 0;
-	color: #fff;
-	margin: 8rem 0;
-	color: black;
+/********************************************
+* Spacers
+********************************************/
+/* padding for the fixed nav - mobile */
+.p-t-nav {
+	padding-top: 50px;
 }
 
-.welcome .jumbotron > h1 {
-	text-shadow: 2px 2px 0 #fff;
+/* padding for the fixed nav - md, lg screens */
+@media only screen and (min-width: 992px) {
+	.p-t-nav {
+		padding-top: 130px;
+	}
 }
 
-/****************************************
-* Home Page - Featurette section
-*****************************************/
-.home-features {
-	padding: 8rem 0;
-}
-
-.featurette {
-	border: 1px solid #222;
-	padding: 4rem;
-	margin-bottom: 1rem;
-}
-
-.featurette > p {
+.m-a-0 {
 	margin: 0;
 }
 
-/****************************************
-* Content Page Layout
-*****************************************/
-main > h1 {
-	margin: 4rem 0;
-	padding: 2rem;
-	border-left: 5px solid #ddd;
-}
-
-main > .row {
-	padding-bottom: 5rem;
-}
-
-/****************************************
-* Footer
-*****************************************/
-footer {
-	background-color: darkslategray;
-	color: #fff;
-	padding: 5rem 0;
-}
-
-/***
+/********************************************
 * Flexbox Sticky Footer
 * http://philipwalton.github.io/solved-by-flexbox/demos/sticky-footer/
-***/
+********************************************/
 
 /*corrects IE min-height bug*/
 html { display: flex;}
@@ -126,6 +83,5 @@ body { width: 100%;}
 	.row-flex > div[class*="col-"] {
 		display: flex;
 		flex: 1 1 auto;
-		margin: -.2px;
 	}
 }

@@ -23,15 +23,16 @@ $PREFIX = str_repeat("../", $DEPTH_DIFFERENCE);
 
 		<!-- Bootstrap: Latest compiled and minified CSS -->
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
-
-		<!-- Optional Bootstrap theme -->
-		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
-
+		
 		<!-- Font Awesome -->
 		<link type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.2/css/font-awesome.min.css" rel="stylesheet" />
+		
+		<!-- Google Fonts -->
+		<link href='https://fonts.googleapis.com/css?family=Roboto:400,400italic,300,700italic,700|Playfair+Display:400,400italic' rel='stylesheet' type='text/css'>
 
 		<!-- My Custom CSS -->
-		<link rel="stylesheet" href="<?php echo $PREFIX;?>css/style.css" type="text/css"/>
+		<link rel="stylesheet" href="<?php echo $PREFIX;?>css/utilities.css" type="text/css"/>
+		<link rel="stylesheet" href="<?php echo $PREFIX;?>css/theme.css" type="text/css"/>
 
 		<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
 		<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -45,6 +46,9 @@ $PREFIX = str_repeat("../", $DEPTH_DIFFERENCE);
 
 		<!-- Bootstrap: Latest compiled and minified JavaScript -->
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+		
+		<!-- custom JavaScript -->
+		<script src="<?php echo $PREFIX;?>js/custom-javascript.js" type="text/javascript"></script>
 
 		<!-- echo the $PAGE_TITLE variable here -->
 		<title><?php echo $PAGE_TITLE;?></title>
