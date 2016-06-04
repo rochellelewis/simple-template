@@ -33,8 +33,6 @@ require_once(dirname(__DIR__) . "/php/partials/head-utils.php");
 						<p>This sample site also has the contact form up and working! (It won't send mail anywhere interesting tho.) View this project on <a href="https://github.com/rlewis2892/simple-template" target="_blank">GitHub</a> to see the mailer in action. Remember, the
 							<a href="https://bootcamp-coders.cnm.edu/class-materials/php/email/" target="_blank">Sending Email in PHP</a> and <a href="https://bootcamp-coders.cnm.edu/class-materials/jquery-validated-captcha-form/" target="_blank">jQuery Validated Contact Form for PWP</a> documentation is always available on bootcamp-coders.</p>
 						<p>One important note is that all sensitive mailer data has been sectioned off in another file called <strong>mail-config.php</strong>, and that has been gitignored. You may want to also adopt this practice for security. See the <strong>mailer.php</strong> file.</p>
-						<h4>More Kitty...</h4>
-						<p>Play riveting piece on synthesizer keyboard throwup on your pillow, for the dog smells bad. Roll on the floor purring your whiskers off shake treat bag stare at the wall, play with food and get confused by dust or cat slap dog in face yet meow all night having their mate disturbing sleeping humans. Touch water with paw then recoil in horror present belly, scratch hand when stroked so poop on grasses. Has closed eyes but still sees you hunt by meowing loudly at 5am next to human slave food dispenser. Groom yourself 4 hours - checked, have your beauty sleep 18 hours - checked, be fabulous for the rest of the day - checked!</p>
 					</div>
 				</div>
 
