@@ -175,7 +175,7 @@ nav.navbar {
 }
 
 /****************************************
-* Content Page - Title Panel
+* Page Title Panel
 *****************************************/
 .title-panel {
 	border-left: 5px solid darkturquoise;
@@ -196,19 +196,28 @@ nav.navbar {
 }
 
 /****************************************
-* Content Page - Side Panel
+* Side Panel
 *****************************************/
 .side-panel {
 	background: url("../images/dandilion.jpg") no-repeat center center;
 	color: white;
-	font-family: 'Playfair Display', 'Times New Roman', Times, serif;
 	padding: 3rem;
 }
 
+.side-panel hr {
+	border-color: gold;
+}
+
 .side-panel .lead {
-	font-size: 2.5em;
-	font-style: italic;
 	color: gold;
+	font-size: 2.5em;
+	font-weight: 800;
+	text-shadow: 2px 2px 0 #000;
+}
+
+.side-panel p {
+	text-shadow: 1px 1px 0 #000;
+	font-size: 1.2em;
 }
 
 /****************************************
@@ -217,7 +226,7 @@ nav.navbar {
 footer.footer {
 	background-color: darkturquoise;
 	color: #fff;
-	font-family: 'Playfair Display', "Times New Roman", Times, serif;
+
 	padding: 5rem 0;
 }
 
@@ -226,6 +235,7 @@ footer.footer {
 	font-size: 2em;
 	margin-bottom: 2rem;
 	padding-bottom: 1rem;
+	font-family: 'Playfair Display', "Times New Roman", Times, serif;
 }
 
 .foot-link a,
@@ -233,10 +243,11 @@ footer.footer {
 	color: #fff;
 	font-size: 1.2em;
 	text-decoration: none;
+	font-weight: 800;
 }
 
 .foot-link a:hover,
 .foot-link a:active {
-	color: gold;
+	color: #444;
 	text-decoration: none;
 }
