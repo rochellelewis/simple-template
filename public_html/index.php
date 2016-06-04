@@ -36,7 +36,7 @@ require_once("php/partials/head-utils.php");
 					<div class="col-sm-6 col-md-8">
 						<div>
 							<p class="lead">This example of a simple, static website was created with PWP in mind. It uses the PHP require_once() statement to inject content from separate files into the pages. This example also dynamically resolves internal dependency paths using PHP too. Sweet!</p>
-							<p class="lead m-a-0">There are also some goodies in the CSS as well, tons of custom styles, equal height columns using flexbox, two layouts (home and content pages), a contact form, custom JavaScript fancy-nav, and more. <em class="text-serif">View Source!</em> <i class="fa fa-magic"></i></p>
+							<p class="lead m-a-0">There are a bunch of goodies in here as well: TONS of custom styles, equal height columns using flexbox, two unique layouts (home and content pages), a contact form, a custom JavaScript fancy-nav, and more. <em class="text-serif">View Source!</em> <i class="fa fa-magic"></i></p>
 						</div>
 					</div>
 				</div>

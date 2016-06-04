@@ -221,6 +221,16 @@ nav.navbar {
 }
 
 /****************************************
+* Contact Form
+*****************************************/
+
+/* add some margin underneath the reCAPTCHA and the form #output-area */
+.g-recaptcha,
+#output-area {
+	margin-bottom: 1.5rem;
+}
+
+/****************************************
 * Footer
 *****************************************/
 footer.footer {

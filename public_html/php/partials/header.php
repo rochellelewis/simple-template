@@ -19,6 +19,7 @@
 					<li><a href="/~rlewis37/simple-template/public_html"><i class="fa fa-home"></i></a></li>
 					<li><a href="/~rlewis37/simple-template/public_html/about">About</a></li>
 					<li><a href="/~rlewis37/simple-template/public_html/contact">Contact</a></li>
+					<li><a href="https://github.com/rlewis2892/simple-template" target="_blank">GitHub</a></li>
 				</ul>
 
 			</div><!-- /.navbar-collapse -->

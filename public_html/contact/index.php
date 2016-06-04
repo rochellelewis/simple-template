@@ -27,7 +27,7 @@ require_once(dirname(__DIR__) . "/php/partials/head-utils.php");
 				<div class="col-sm-9 col-sm-push-3 content-panel">
 					<div>
 						<!--Begin Contact Form-->
-						<form id="contact-form" action="php/mailer.php" method="post">
+						<form id="contact-form" action="<?php echo $PREFIX;?>php/mailer.php" method="post">
 							<div class="form-group">
 								<label for="name">Name <span class="text-danger">*</span></label>
 								<div class="input-group">
@@ -66,7 +66,7 @@ require_once(dirname(__DIR__) . "/php/partials/head-utils.php");
 							</div>
 
 							<!-- reCAPTCHA -->
-							<div class="g-recaptcha" data-sitekey="--YOUR RECAPTCHA SITE KEY--"></div>
+							<div class="g-recaptcha" data-sitekey="6Lc7ox8TAAAAAN9sf714pyF4Kjp1CkOHg3AUMVYr"></div>
 
 							<button class="btn btn-info" type="submit"><i class="fa fa-paper-plane"></i> Send</button>
 							<button class="btn btn-default" type="reset"><i class="fa fa-ban"></i> Reset</button>
