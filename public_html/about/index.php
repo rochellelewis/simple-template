@@ -24,7 +24,7 @@ require_once(dirname(__DIR__) . "/php/partials/head-utils.php");
 			<div class="row row-flex content-wrap">
 
 				<!-- main content area -->
-				<div class="col-sm-10 col-sm-push-2 content-panel">
+				<div class="col-sm-9 col-sm-push-3 content-panel">
 					<div>
 						<h2>Feel the Fuzzy!</h2>
 						<p>Leave dead animals as gifts this human feeds me, i should be a god but find empty spot in cupboard and sleep all day, give attitude, but hide when guests come over, for give attitude. Sleep in the bathroom sink chase ball of string but purr for no reason but pelt around the house and up and down stairs chasing phantoms. I am the best. Soft kitty warm kitty little ball of furr stick butt in face hiss at vacuum cleaner peer out window, chatter at birds, lure them to mouth caticus cuteicus get video posted to internet for chasing red dot for hack up furballs. Stare at ceiling light cat snacks. Lick arm hair fall asleep on the washing machine under the bed, and lick plastic bags for scratch leg; meow for can opener to feed me cough furball. Human give me attention meow thug cat for make muffins pee in the shoe, my left donut is missing, as is my right or brown cats with pink ears and have secret plans.</p>
@@ -34,7 +34,7 @@ require_once(dirname(__DIR__) . "/php/partials/head-utils.php");
 				</div>
 
 				<!-- side panel -->
-				<div class="col-sm-2 col-sm-pull-10 side-panel">
+				<div class="col-sm-3 col-sm-pull-9 side-panel">
 					<?php require_once(dirname(__DIR__) . "/php/partials/side-panel.php");?>
 				</div>
 

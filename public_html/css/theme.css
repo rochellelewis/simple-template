@@ -53,6 +53,22 @@ nav.navbar {
 	background-color: white;
 }
 
+/* custom navbar-inverse overrides*/
+.navbar-inverse .navbar-brand {
+	color: #fff;
+}
+
+.navbar-inverse .navbar-nav>li>a {
+	color: #fff;
+}
+
+.navbar-inverse .navbar-brand:focus,
+.navbar-inverse .navbar-brand:hover,
+.navbar-inverse .navbar-nav>li>a:focus,
+.navbar-inverse .navbar-nav>li>a:hover {
+	color: gold;
+}
+
 /* embiggen nav on md and lg screens only*/
 @media only screen and (min-width: 992px) {
 	nav.navbar {
@@ -73,7 +89,7 @@ nav.navbar {
 * Home Page - Welcome
 *****************************************/
 .welcome {
-	background: url("../images/dandilion.jpg") no-repeat center center;
+	background: url("../images/dog.jpg") no-repeat center center;
 	background-attachment: fixed;
 	background-size: cover;
 	min-height: 400px;
@@ -82,12 +98,24 @@ nav.navbar {
 .welcome .jumbotron {
 	background: transparent;
 	border-radius: 0;
-	color: gold;
 	margin: 8rem 0;
 }
 
 .welcome .jumbotron > h1 {
+	color: gold;
 	font-family: 'Playfair Display', Times, serif;
+	font-size: 8em;
+	text-shadow: 3px 3px 0 black;
+	text-transform: uppercase;
+}
+
+.welcome .jumbotron .lead {
+	background: gold;
+	color: black;
+	display: inline-block;
+	font-weight: 800;
+	padding: 5px 25px;
+	text-shadow: 1px 1px 0 white;
 }
 
 /*styles for sm, md, lg screens */

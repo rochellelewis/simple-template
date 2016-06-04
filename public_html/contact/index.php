@@ -24,7 +24,7 @@ require_once(dirname(__DIR__) . "/php/partials/head-utils.php");
 			<div class="row row-flex content-wrap">
 
 				<!-- main content area -->
-				<div class="col-sm-10 col-sm-push-2 content-panel">
+				<div class="col-sm-9 col-sm-push-3 content-panel">
 					<div>
 						<!--Begin Contact Form-->
 						<form id="contact-form" action="php/mailer.php" method="post">
@@ -82,7 +82,7 @@ require_once(dirname(__DIR__) . "/php/partials/head-utils.php");
 				</div><!--/.content-wrap-->
 
 				<!-- side panel -->
-				<div class="col-sm-2 col-sm-pull-10 side-panel">
+				<div class="col-sm-3 col-sm-pull-9 side-panel">
 					<?php require_once(dirname(__DIR__) . "/php/partials/side-panel.php");?>
 				</div>
 
