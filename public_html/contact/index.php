@@ -8,7 +8,7 @@ $PAGE_TITLE = "Contact Us";
 /*load the HTML head tag: head-utils.php*/
 require_once(dirname(__DIR__) . "/php/partials/head-utils.php");
 ?>
-<body class="sfooter content">
+<body class="sfooter content-layout">
 	<div class="sfooter-content">
 
 		<!-- insert header and navbar -->
@@ -23,7 +23,7 @@ require_once(dirname(__DIR__) . "/php/partials/head-utils.php");
 			<!-- begin main content area -->
 			<div class="row row-flex content-wrap">
 
-				<!-- main content area -->
+				<!-- page content -->
 				<div class="col-sm-9 col-sm-push-3 content-panel">
 					<div>
 						<!--Begin Contact Form-->

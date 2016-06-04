@@ -8,7 +8,7 @@ $PAGE_TITLE = "Simple Template Example - Home";
 /*load the HTML head tag: head-utils.php*/
 require_once("php/partials/head-utils.php");
 ?>
-<body class="sfooter home">
+<body class="sfooter home-layout">
 	<div class="sfooter-content">
 
 		<!-- insert header and navbar -->

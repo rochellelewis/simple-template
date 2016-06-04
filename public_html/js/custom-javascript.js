@@ -4,7 +4,7 @@ $(document).ready(function(){
 	 * Swap out navbar classes 
 	 * for home and content pages
 	 ********************************************/
-	if($('body').hasClass('home')) {
+	if($('body').hasClass('home-layout')) {
 		
 		/* check body tag for home page class, add navbar-inverse class */
 		$('.navbar').addClass('navbar-inverse');
@@ -25,7 +25,7 @@ $(document).ready(function(){
 		});
 	}
 
-	if($('body').hasClass('content')) {
+	if($('body').hasClass('content-layout')) {
 		$('.navbar').addClass('navbar-default');
 	}
 
