@@ -1,6 +1,6 @@
 <footer class="footer text-center">
 	<div class="container">
-		<div class="col-sm-4 col-sm-offset-4">
+		<div class="col-md-4 col-md-offset-4">
 			<div class="foot-logo">
 				Simple Template Example
 			</div>
