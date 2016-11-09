@@ -9,14 +9,14 @@
 					<span class="icon-bar"></span>
 					<span class="icon-bar"></span>
 				</button>
-				<a class="navbar-brand" href="/~rlewis37/simple-template/public_html/">Simple Static Website</a>
+				<a class="navbar-brand" href="<?php echo $PREFIX;?>">Simple Static Website</a>
 			</div>
 
 			<!-- Collect the nav links, forms, and other content for toggling -->
 			<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 
 				<ul class="nav navbar-nav navbar-right">
-					<li><a href="<?php echo $PREFIX;?>public_html"><i class="fa fa-home"></i></a></li>
+					<li><a href="<?php echo $PREFIX;?>"><i class="fa fa-home"></i></a></li>
 					<li><a href="<?php echo $PREFIX;?>about">About</a></li>
 					<li><a href="<?php echo $PREFIX;?>contact">Contact</a></li>
 					<li><a href="https://github.com/rlewis2892/simple-template" target="_blank">GitHub</a></li>
